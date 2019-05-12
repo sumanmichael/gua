@@ -25,7 +25,7 @@ public class Demo implements ActionListener {
         }
 
         BufferedImage tmp;
-        BufferedImage img = ImageIO.read(new File("D://sam2.jpg"));   //filepath here
+        BufferedImage img = ImageIO.read(new File("back.jpg"));   //filepath here
         Image imgin = img.getScaledInstance(500,500,Image.SCALE_SMOOTH);
         img = new BufferedImage(500,500,BufferedImage.TYPE_INT_ARGB);
 
